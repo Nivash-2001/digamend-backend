@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import feedbackroutes from "./feedbackRoutes.js";
+import feedbackroutes from "./routes/feedbackRoutes.js";
 
 dotenv.config();
 const app = express();

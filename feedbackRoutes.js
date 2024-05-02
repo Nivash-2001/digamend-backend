@@ -3,6 +3,6 @@ import { feedback } from "./feedbackController.js";
 const router=express.Router();
 
 
-router.post("/",feedback);
+router.post("/feedbackinfo",feedback);
 
 export default router;
